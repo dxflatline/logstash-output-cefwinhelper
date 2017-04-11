@@ -108,6 +108,10 @@ class LogStash::Outputs::Cefwinhelper < LogStash::Outputs::Base
     elsif windowsVersion == "Windows Vista"
        windowsKeyMapFamily = "Windows Vista"
        windowsParserFamily = "Windows 2008 R2|2008|7|Vista"
+    else
+       windowsVersion = "Windows Server 2012 R2"
+       windowsKeyMapFamily = "Windows 2012 R2"
+       windowsParserFamily = "Windows 2012 R2|2012|8"
     end
 
     # Keyword extract from XML

@@ -2,10 +2,10 @@ Gem::Specification.new do |s|
   s.name          = 'logstash-output-cefwinhelper'
   s.version       = '0.1.0'
   s.licenses      = ['Apache License (2.0)']
-  s.summary       = ''
+  s.summary       = 'Plugin parser helper'
   s.description   = ''
   s.homepage      = ''
-  s.authors       = ['']
+  s.authors       = ['Dimitris Strevinas']
   s.email         = ''
   s.require_paths = ['lib']
 
